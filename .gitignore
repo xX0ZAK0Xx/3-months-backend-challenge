@@ -1,0 +1,92 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules
+jspm_packages
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint directory
+.eslintcache
+
+# Optional Bower configuration directory
+.bower
+
+# Test coverage tools
+coverage
+
+# nyc output coverage file
+.nyc_output
+
+# mocha configuration file
+.mocharecipe
+
+# Optional Webpack build directories
+# commentary is set to store the source in the corresponding
+# map file.
+# Webpack is set to store the source in the original
+# file.
+# Also see http://webpack.github.io/configuration.html#devtool
+# and http://webpack.github.io/configuration.html#output.pathinfo
+webpack:///.*$/i
+
+# Optional REPL history files
+.node_repl_history
+
+# Output of 'npm pack'
+.npm_packed_*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.example
+
+# parcel-bundled plugins
+.dill
+
+# Next.js build output
+.next
+.vercel
+.out
+
+# Gatsby files
+.cache
+public
+# Comment in the public line below with a '#' to allow the plugin to be built
+# if you are using `gatsby develop`
+# plugins
+# dist
+.gatsby-node
+.gatsby-node.develop
+.gatsby-*.js
+.gatsby-plugin-manifest.json
+.gatsby-plugin-utils-module.css
+.gatsby-plugin-utils-normalize.css
+.gatsby-ssr-html.html
+.gatsby-server.js
+static/webpack-middleware-*.js
+static/webpack-middleware-*.js.LICENSE.txt
+static/webpack-middleware-*.js.map
+static/webpack-middleware-*.module.css
+static/webpack-middleware-*.module.css.map
+static/webpack-middleware-*.module.js
+static/webpack-middleware-*.module.js.LICENSE.txt
+static/webpack-middleware-*.module.js.map
